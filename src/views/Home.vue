@@ -1,15 +1,8 @@
 <template>
-  <HelloWorld msg="Vue 3, Vite, TypeScript & Tailwind CSS" />
+  <MainComponent />
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue'
+<script setup lang="ts">
+import MainComponent from '../components/MainComponent.vue'
 
-import HelloWorld from '../components/HelloWorld.vue'
-
-export default defineComponent({
-  components: {
-    HelloWorld,
-  },
-})
 </script>
