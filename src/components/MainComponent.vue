@@ -75,7 +75,7 @@
         <span v-if="status === 4">Loading...</span>
         <a
           v-if="status === 5"
-          href="report"
+          href="https://6483-119-13-68-59.eu.ngrok.io/report"
           class="bg-red-800 p-1 shadow-sm rounded-lg px-3 text-red-50 font-bold text-lg cursor-pointer hover:bg-red-900 fixed"
         >
           End meeting
